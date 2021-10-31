@@ -11,6 +11,7 @@ const Home = ({ navigation }) => {
     const showFavr = useSelector(state => state.BBReducer?.showFavorite)
     const characters = useSelector(state => state.BBReducer?.characters)
 
+
     React.useLayoutEffect(() => {
         navigation.setOptions({
             title: 'The Breaking Bad',
